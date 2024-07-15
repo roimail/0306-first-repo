@@ -16,7 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.11.9'  # Replace with your Python version if different
+          python-version: '3.x'  # Replace with your Python version if different
 
       - name: Run Python script
         run: python 1.py
